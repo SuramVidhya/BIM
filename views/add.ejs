@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+</head>
+<body>
+    <h1 class="c1">Add a New Product</h1>
+    <div class="container">
+        <form class="c2" action="/AddData" method="POST">
+            <div>
+                <label>Book Id:</label>
+                <input type="number" placeholder="Enter Book Id" name="bid">
+            </div>
+            <div>
+                <label>Book Name:</label>
+                <input type="text" placeholder="Enter Book Name" name="bname">
+            </div>
+            <div>
+                <label>Author:</label>
+                <input type="text" placeholder="Enter Author" name="author">
+
+            </div>
+            <div>
+                <label>Stock:</label>
+                <input type="number" placeholder="Enter stock" name="stock">
+            </div>
+            <div>
+                <label>Selling Price:</label>
+                <input type="number" placeholder="Enter selling price" name="sp">
+            </div>
+            <div>
+                <label>Cost Price:</label>
+                <input type="number" placeholder="Enter Cost price" name="cp">
+            </div>
+            <br>
+            <input type="submit">
+        </form>
+        <a href="/">Home page</a>
+    </div>
+</body>
+</html>
